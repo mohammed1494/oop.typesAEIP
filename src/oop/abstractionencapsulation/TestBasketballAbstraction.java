@@ -1,23 +1,19 @@
-package oop.abstraction;
+package oop.abstractionencapsulation;
 
 public class TestBasketballAbstraction {
 
 	public static void main(String[] args) {
 
 		System.out.println("Best team------------------------------------------------------");
-
-
 		BasketballAbstraction team = new LALakers();
 		team.teamName();
 		team.coach();
 		team.topPlayer();
 		team.jerseyNumber();
-//		team.playoffs
+        BasketballAbstraction.playoffs();
 		//not showing up
-
 		LALakers secondBestPlayer = new LALakers();
 		secondBestPlayer.secondBestPlayer();
-
 
 		System.out.println("Worst team------------------------------------------------------");
 
@@ -29,18 +25,17 @@ public class TestBasketballAbstraction {
 
 		System.out.println("Top team in East------------------------------------------------------");
 
-
 		MilBucks Bucks = new MilBucks();
 		Bucks.MilwaukeeBucks();
+		
+		InjuredPlayer aDavis = new LALakers(); 
+		aDavis.injuryType();
+		
+		GSWarriors sCurry = new LALakers(); {
+		sCurry.injuredPlayer();
 	}
-
-	InjuredPlayer aDavis = new LALakers(); {
-	aDavis.injuryType();
 	
-	}
 	
-	GSWarriors sCurry = new LALakers(); {
-	sCurry.injuredPlayer();
 	
 	
 	}

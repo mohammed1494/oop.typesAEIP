@@ -1,4 +1,4 @@
-package oop.abstraction;
+package oop.abstractionencapsulation;
 
 public interface GSWarriors {
 

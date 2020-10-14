@@ -1,4 +1,4 @@
-package oop.abstraction;
+package oop.abstractionencapsulation;
 
 public interface BasketballAbstraction {
 	
@@ -17,6 +17,6 @@ public interface BasketballAbstraction {
 	public void jerseyNumber();	
 	
 	public static void playoffs() {
-		System.out.println("Lakers went to playoffs");
+		System.out.println("Lakers are in the playoffs");
 	}
 }

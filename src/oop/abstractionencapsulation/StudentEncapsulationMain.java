@@ -1,4 +1,4 @@
-package oop.abstraction;
+package oop.abstractionencapsulation;
 
 public class StudentEncapsulationMain {
 
@@ -9,6 +9,10 @@ public class StudentEncapsulationMain {
 		st1.setStId(105);
 		st1.setStDOB("10-9-98");
 		st1.setStGrade('A');
+		
+		StudentEncapsulation st3 = new StudentEncapsulation();
+		st3.setStName("Rashid");
+		System.out.println(st3.getStName());
 		
 		System.out.println(st1.getStName() + " " + st1.getStId() + " " +st1.getStGrade() + " " + st1.getStDOB());
 	

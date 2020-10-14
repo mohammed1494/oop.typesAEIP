@@ -1,4 +1,4 @@
-package oop.abstraction;
+package oop.abstractionencapsulation;
 
 public class LALakers extends InjuredPlayer implements BasketballAbstraction {
 
@@ -21,6 +21,7 @@ public class LALakers extends InjuredPlayer implements BasketballAbstraction {
 		System.out.println("Jersey Number is 23");
 	}
 	
+		
 	public void secondBestPlayer() {
 	System.out.println("The second best player on the LA Lakers is Anthony Davis");
 	}
